@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Home</title>    
+    
+</head>
+<body>
+    <div class="header">
+        <nav> 
+            <img src="images/logo.png" class="logo">         
+            <ul>                
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="porfolio.html">PORTFOLIO</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+            </ul>
+            <img src="images/menu.png" class="menu-icon">
+        </nav>
+
+        <div class="text-box">
+            <h1>I'm <span class="auto-input"></span></h1>
+            <p>You can reach out to me if you need any help in making a <br>website for you or your business.</p>
+            <a href="mailto:jbridges373@gmail.com">Contact Me</a>
+            <a href="doc/CyberRole.pdf" class="btn">Download CV</a>
+        </div>
+        
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: ["John Bridges", "Web Developer", "UI Designer", "DevOps Engineer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+</body>
+</html>
